@@ -22,6 +22,30 @@ This project demonstrates how to:
 3. **Mint tokens** - Create fungible tokens with metadata using Metaplex standards
 4. **Store metadata** - Link tokens to off-chain metadata (images, descriptions, etc.)
 
+## 🎯 Live Demo - Deployed Token
+
+### ✅ Successfully Deployed on Solana Devnet!
+
+**Token Name:** Johan108  
+**Symbol:** JO  
+**Token Address:** `4yLvQGH2Y4vgTX4LN5Xpzi8Z41w3gqRwFzLgxb5rsgzYu`
+
+#### Token Details:
+- 💰 **Current Supply:** 1,000,000 tokens
+- 🔢 **Decimals:** 8
+- 🔑 **Mint Authority:** `FsBvAweSX7wRJYhTRvjejENNt6kGXiPCzb6gPq5HWo8a`
+- ❄️ **Freeze Authority:** `FsBvAweSX7wRJYhTRvjejENNt6kGXiPCzb6gPq5HWo8a`
+
+#### 🔍 View on Solana Explorer:
+**[👉 View Token on Solana Explorer (Devnet)](https://explorer.solana.com/address/4yLvQGH2Y4vgTX4LN5Xpzi8Z41w3gqRwFzLgxb5rsgzYu?cluster=devnet)**
+
+#### Transaction History:
+- ✅ **Creation Transaction:** [4whdfqKZiDuNWnbc2Tj3qKMMtHCaXSLW5Nk8hE1tJXddiJV8cvHEM9t4Ua...](https://explorer.solana.com/tx/4whdfqKZiDuNWnbc2Tj3qKMMtHCaXSLW5Nk8hE1tJXddiJV8cvHEM9t4Ua?cluster=devnet)
+- 📦 **Block:** 420,477,470
+- ⏰ **Timestamp:** Nov 9, 2025 at 22:51:45 UTC
+
+> **Note:** This is a demonstration token deployed on Solana Devnet for testing purposes. Devnet tokens have no real-world value.
+
 ## 📦 Dependencies
 
 ### Core Dependencies
