@@ -1,0 +1,79 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Secret keys and sensitive data
+secretKey.json
+*.key
+*.pem
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+*.js
+*.js.map
+*.d.ts
+!*.config.js
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Testing
+coverage/
+.nyc_output/
+
+# Logs
+logs/
+*.log
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Local token/wallet files (keep these private!)
+token.json
+wallet.json
+keypair.json
+id.json
+
+# Solana CLI config (may contain private info)
+~/.config/solana/
+
+# Lock files (uncomment if you want to ignore them)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml

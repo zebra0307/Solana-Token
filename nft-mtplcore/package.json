@@ -1,0 +1,19 @@
+{
+  "name": "nft-mtplcore",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "@metaplex-foundation/mpl-inscription": "^0.8.1",
+    "@metaplex-foundation/mpl-token-metadata": "^3.4.0",
+    "@metaplex-foundation/umi": "^1.4.1",
+    "@metaplex-foundation/umi-bundle-defaults": "^1.4.1",
+    "@solana/web3.js": "1",
+    "bs58": "^6.0.0",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0"
+  }
+}
