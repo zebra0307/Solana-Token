@@ -77,79 +77,17 @@ Implementation of fungible tokens using the Metaplex Token Metadata standard. Th
 ---
 
 ### 3. **nft-candy-machine** - Candy Machine v3
-> **Status:** 🔜 Coming Soon  
 > **Focus:** NFT Minting & Distribution
-
-**Planned Features:**
-- Automated NFT minting at scale
-- Whitelist and public mint phases
-- Customizable mint pricing
-- Bot protection mechanisms
-- Pre-sale and public sale management
-- Collection verification
-
-**Technologies:**
-- `@metaplex-foundation/mpl-candy-machine`
-- Candy Machine v3 Program
-
-**Use Cases:**
-- NFT drops and launches
-- Generative art collections
-- Phased minting (whitelist → public)
-- Large-scale NFT projects
 
 ---
 
 ### 4. **nft-compressed** - Compressed NFTs (cNFTs)
-> **Status:** 🔜 Coming Soon  
 > **Focus:** Cost-Effective NFTs at Scale
-
-**Planned Features:**
-- State compression using Merkle trees
-- Drastically reduced minting costs (~1000x cheaper)
-- Bubblegum program integration
-- Mass minting capabilities
-- Off-chain metadata with on-chain verification
-
-**Technologies:**
-- `@metaplex-foundation/mpl-bubblegum`
-- `@solana/spl-account-compression`
-
-**Use Cases:**
-- Large-scale airdrops (millions of NFTs)
-- Gaming inventory items
-- Event tickets at scale
-- Loyalty program badges
-- Mass distribution campaigns
-
-**Cost Comparison:**
-- Regular NFT: ~0.012 SOL per mint
-- Compressed NFT: ~0.00001 SOL per mint
 
 ---
 
 ### 5. **nft-programmable** - Programmable NFTs (pNFTs)
-> **Status:** 🔜 Coming Soon  
 > **Focus:** NFTs with Advanced Rules
-
-**Planned Features:**
-- Rule sets for transfers and usage
-- Creator-enforced royalties
-- Delegate authorities
-- Token gating capabilities
-- Programmable asset behavior
-- Advanced authorization logic
-
-**Technologies:**
-- `@metaplex-foundation/mpl-token-metadata` (pNFT standard)
-- Token Auth Rules program
-
-**Use Cases:**
-- Royalty-enforced art
-- Soulbound tokens (non-transferable)
-- Conditional ownership transfers
-- Access-controlled assets
-- Gaming items with special rules
 
 ---
 
@@ -233,23 +171,6 @@ npm install -g typescript ts-node
 - [Candy Machine](https://docs.metaplex.com/programs/candy-machine/)
 - [Bubblegum (cNFTs)](https://docs.metaplex.com/programs/compression/)
 
-### Community
-- [Solana Discord](https://discord.com/invite/solana)
-- [Metaplex Discord](https://discord.gg/metaplex)
-- [Solana Stack Exchange](https://solana.stackexchange.com/)
-
----
-
-## 🔐 Security Best Practices
-
-1. **Never commit private keys** to version control
-2. **Use `.gitignore`** to exclude sensitive files
-3. **Test on devnet** before mainnet deployment
-4. **Audit smart contracts** for production use
-5. **Use hardware wallets** for significant funds
-6. **Keep dependencies updated** for security patches
-7. **Backup your keypairs** securely
-
 ---
 
 ## 🗺️ Roadmap
@@ -269,9 +190,9 @@ npm install -g typescript ts-node
 
 Contributions are welcome! Please:
 1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
+2. Create a feature branch
+3. Commit your changes 
+4. Push to the branch 
 5. Open a Pull Request
 
 ---
@@ -282,20 +203,11 @@ This project is licensed under the MIT License - see individual project director
 
 ---
 
-## 👨‍💻 Author
-
-**Rammsey**  
-GitHub: [@zebra0307](https://github.com/zebra0307)
-
----
-
 ## 💡 Project Goals
 
 This repository aims to:
 - Provide **hands-on examples** of Solana token/NFT development
-- Demonstrate **best practices** for blockchain development
 - Showcase **different token standards** and their use cases
-- Serve as a **learning resource** for developers
 - Build a **comprehensive toolkit** for Solana projects
 
 ---
@@ -311,7 +223,3 @@ This repository aims to:
 | nft-programmable | 🔜 Soon | pNFTs | Coming Soon |
 
 ---
-
-**Happy Building on Solana! 🚀**
-
-> *"The future of digital ownership is here, and it's decentralized."*
