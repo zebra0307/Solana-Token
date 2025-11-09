@@ -28,19 +28,19 @@ This project demonstrates how to:
 
 **Token Name:** Johan108  
 **Symbol:** JO  
-**Token Address:** `4yLvQGH2Y4vgTX4LN5Xpzi8Z41w3gqRwFzLgxb5rsgzYu`
+**Token Address:** `4yLvQGM2Y4vgTX4LN5XpZi8Z41W3gqRwFzLgxbfsgzYu`
 
 #### Token Details:
 - 💰 **Current Supply:** 1,000,000 tokens
 - 🔢 **Decimals:** 8
-- 🔑 **Mint Authority:** `FsBvAweSX7wRJYhTRvjejENNt6kGXiPCzb6gPq5HWo8a`
-- ❄️ **Freeze Authority:** `FsBvAweSX7wRJYhTRvjejENNt6kGXiPCzb6gPq5HWo8a`
+- 🔑 **Mint Authority:** `FsBvAweSK7wRJYhTRvjejENNt6kGXiPCzb6gPq5HWo8a`
+- ❄️ **Freeze Authority:** `FsBvAweSK7wRJYhTRvjejENNt6kGXiPCzb6gPq5HWo8a`
 
 #### 🔍 View on Solana Explorer:
-**[👉 View Token on Solana Explorer (Devnet)](https://explorer.solana.com/address/4yLvQGH2Y4vgTX4LN5Xpzi8Z41w3gqRwFzLgxb5rsgzYu?cluster=devnet)**
+**[👉 View Token on Solana Explorer (Devnet)](https://explorer.solana.com/address/4yLvQGM2Y4vgTX4LN5XpZi8Z41W3gqRwFzLgxbfsgzYu?cluster=devnet)**
 
 #### Transaction History:
-- ✅ **Creation Transaction:** [4whdfqKZiDuNWnbc2Tj3qKMMtHCaXSLW5Nk8hE1tJXddiJV8cvHEM9t4Ua...](https://explorer.solana.com/tx/4whdfqKZiDuNWnbc2Tj3qKMMtHCaXSLW5Nk8hE1tJXddiJV8cvHEM9t4Ua?cluster=devnet)
+- ✅ **Creation Transaction:** [4whdfqKZiDuNnWncb2Tj3qKMWtHCaXSLW5NKBhEe1tJxWdiJV8cvHEM9t4UaTKBZMKv4aRsDxBx6mVAAktefyXUn](https://explorer.solana.com/tx/4whdfqKZiDuNnWncb2Tj3qKMWtHCaXSLW5NKBhEe1tJxWdiJV8cvHEM9t4UaTKBZMKv4aRsDxBx6mVAAktefyXUn?cluster=devnet)
 - 📦 **Block:** 420,477,470
 - ⏰ **Timestamp:** Nov 9, 2025 at 22:51:45 UTC
 
