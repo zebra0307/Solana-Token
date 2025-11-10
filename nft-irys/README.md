@@ -2,6 +2,24 @@
 
 A TypeScript-based NFT minting project using Metaplex Core protocol on Solana blockchain. This project allows you to mint multiple NFTs with custom metadata and images stored on Irys (formerly Bundlr).
 
+## 🎯 Live Deployed NFTs on Solana Devnet
+
+**Wallet Address**: `zTNewXF4q7n1CFC1Z43pXKAyhb6nh6cpKpUEkK8BBex`
+
+### ✅ Successfully Minted NFTs:
+
+| NFT Name | Solana Explorer | Metaplex Explorer | Rarity |
+|----------|----------------|-------------------|---------|
+| **Johan** | [🔗 View on Solana](https://explorer.solana.com/address/CCHqMUafVg6ZuXqZMwuxR55oWMJctXFgB2mcEyHS69Di?cluster=devnet) | [🔗 View on Metaplex](https://core.metaplex.com/explorer/CCHqMUafVg6ZuXqZMwuxR55oWMJctXFgB2mcEyHS69Di?env=devnet) | Legendary |
+| **Super Bear** | [🔗 View on Solana](https://explorer.solana.com/address/tJ8QfR71s5ipQGFh1ATEpmeKqPFzkWHPaG84F4tzmD4?cluster=devnet) | [🔗 View on Metaplex](https://core.metaplex.com/explorer/tJ8QfR71s5ipQGFh1ATEpmeKqPFzkWHPaG84F4tzmD4?env=devnet) | Legendary |
+| **Super Wolf** | [🔗 View on Solana](https://explorer.solana.com/address/6q4dP3PHbDp2kroPwjUnobGFyo2djoakYN1qX411EChG?cluster=devnet) | [🔗 View on Metaplex](https://core.metaplex.com/explorer/6q4dP3PHbDp2kroPwjUnobGFyo2djoakYN1qX411EChG?env=devnet) | Rare |
+| **Johan84** | [🔗 View on Solana](https://explorer.solana.com/address/HhNvPJcgGwRf6iVW5k7misPSiJLimo4r4gSTLyNFdh3z?cluster=devnet) | [🔗 View on Metaplex](https://core.metaplex.com/explorer/HhNvPJcgGwRf6iVW5k7misPSiJLimo4r4gSTLyNFdh3z?env=devnet) | Mythic |
+| **BlackSwan** | [🔗 View on Solana](https://explorer.solana.com/address/8BCTGtapS38S9Q9RUbDcYeTW88MA9Cfh2ZhEZYgqYjKv?cluster=devnet) | [🔗 View on Metaplex](https://core.metaplex.com/explorer/8BCTGtapS38S9Q9RUbDcYeTW88MA9Cfh2ZhEZYgqYjKv?env=devnet) | Rare |
+
+> **Note:** All NFTs are deployed on Solana Devnet for testing purposes. Click the links above to view transaction details and NFT metadata on-chain.
+
+---
+
 ## 🚀 Features
 
 - **Batch NFT Minting**: Mint multiple NFTs in a single run
@@ -145,17 +163,6 @@ npx tsc --noEmit
 - `@metaplex-foundation/umi-bundle-defaults` - UMI bundle
 - `@metaplex-foundation/umi-uploader-irys` - Irys uploader
 
-## 🎯 Deployed NFTs
-
-**Wallet Address**: `zTNewXF4q7n1CFC1Z43pXKAyhb6nh6cpKpUEkK8BBex`
-
-Recent Deployment on Devnet:
-1. [Johan](https://core.metaplex.com/explorer/CCHqMUafVg6ZuXqZMwuxR55oWMJctXFgB2mcEyHS69Di?env=devnet)
-2. [Super Bear](https://core.metaplex.com/explorer/tJ8QfR71s5ipQGFh1ATEpmeKqPFzkWHPaG84F4tzmD4?env=devnet)
-3. [Super Wolf](https://core.metaplex.com/explorer/6q4dP3PHbDp2kroPwjUnobGFyo2djoakYN1qX411EChG?env=devnet)
-4. [Johan84](https://core.metaplex.com/explorer/HhNvPJcgGwRf6iVW5k7misPSiJLimo4r4gSTLyNFdh3z?env=devnet)
-5. [BlackSwan](https://core.metaplex.com/explorer/8BCTGtapS38S9Q9RUbDcYeTW88MA9Cfh2ZhEZYgqYjKv?env=devnet)
-
 ## ⚠️ Important Notes
 
 - **Localhost Limitation**: The Irys uploader requires devnet/mainnet connection. Local testing with `mint_nft_localhost.ts` will not work for image/metadata uploads.
@@ -182,10 +189,5 @@ This project is open source and available under the MIT License.
 - [Irys Documentation](https://docs.irys.xyz/)
 - [Solana Devnet Faucet](https://faucet.solana.com/)
 
-## 👨‍💻 Author
-
-**zebra0307**
 
 ---
-
-**Note**: This project is for educational purposes and devnet testing. For mainnet deployment, ensure proper security measures and testing.
