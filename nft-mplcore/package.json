@@ -1,0 +1,22 @@
+{
+  "name": "nft-mplcore",
+  "version": "1.0.0",
+  "description": "Metaplex Core NFT project",
+  "type": "module",
+  "scripts": {
+    "start": "ts-node app.ts"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@metaplex-foundation/mpl-core": "^1.7.0",
+    "@metaplex-foundation/mpl-inscription": "^0.8.1",
+    "@metaplex-foundation/umi": "^1.4.1",
+    "@metaplex-foundation/umi-bundle-defaults": "^1.4.1",
+    "@noble/hashes": "1.5.0",
+    "@solana/web3.js": "1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "typescript": "^5.3.3"
+  }
+}

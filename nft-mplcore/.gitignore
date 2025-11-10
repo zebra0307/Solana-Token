@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+
+# Compiled output (prevent .js and .d.ts from TypeScript)
+*.js
+*.d.ts
+*.js.map
+!*.config.js
+
+# Solana test ledger
+test-ledger/
+
+# Logs and output
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+deploy-output.log
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+out/
+
+# Cache
+.cache/
+.parcel-cache/
+
+# Keep important binary files (explicitly allow)
+!core.so
+
+# Optional: Uncomment to exclude metadata files from git
+# *.json
+# !package.json
+# !tsconfig.json
+
